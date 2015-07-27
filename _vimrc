@@ -11,6 +11,8 @@ set hls
 
 "set foldlevel=99
 
+set tags=./tags;,./gotags;
+
 nmap <F8> :TagbarToggle<CR>
 
 let g:syntastic_mode_map = { 'mode': 'passive' }
