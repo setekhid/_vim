@@ -5,7 +5,9 @@ filetype plugin indent on
 set smartindent
 set tabstop=4
 set shiftwidth=4
-"set expandtab
+set noexpandtab
+set colorcolumn=80
+set laststatus=2
 "set ruler
 set hls
 
