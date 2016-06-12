@@ -40,6 +40,16 @@ let g:syntastic_auto_loc_list = 1
 let g:syntastic_check_on_open = 1
 let g:syntastic_check_on_wq = 0
 
+let g:tagbar_type_make = {
+			\ 'kinds':[
+				\ 'm:macros',
+				\ 't:targets'
+			\ ]
+		\}
+
+"set javascript checker
+let g:syntastic_javascript_checkers = ['standard']
+
 "config merlin for ocaml
 let g:opamshare = substitute(system('opam config var share'),'\n$','','''')
 execute "set rtp+=" . g:opamshare . "/merlin/vim"
