@@ -14,3 +14,8 @@ endfunction
 
 command! -buffer -range HaskellSortImports call haskell#sortImports(<line1>, <line2>)
 command! -buffer -range HaskellFormatImport call haskell#formatImport(<line1>, <line2>)
+
+" Disable haskell-vim omnifunc
+let g:haskellmode_completion_ghc = 0
+"autocmd FileType haskell setlocal omnifunc=necoghc#omnifunc
+setlocal omnifunc=necoghc#omnifunc

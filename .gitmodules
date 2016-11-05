@@ -13,3 +13,9 @@
 [submodule "bundle/vim-go"]
 	path = bundle/vim-go
 	url = git://github.com/fatih/vim-go.git
+[submodule "bundle/lushtags"]
+	path = bundle/lushtags
+	url = git://github.com/bitc/lushtags.git
+[submodule "bundle/neco-ghc"]
+	path = bundle/neco-ghc
+	url = git://github.com/eagletmt/neco-ghc.git
