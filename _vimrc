@@ -11,6 +11,8 @@ set laststatus=2
 "set ruler
 set hls
 
+set backspace=indent,eol,start
+
 "set foldlevel=99
 
 set tags=tags;/
@@ -62,3 +64,8 @@ let g:go_fmt_autosave = 0
 
 "config necoghc
 let g:necoghc_enable_detailed_browse = 1
+
+"config pymode
+let g:pymode_python = 'python3'
+let g:pymode_options = 0
+let g:pymode_rope_goto_definition_cmd = 'e'
