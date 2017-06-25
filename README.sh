@@ -35,12 +35,9 @@ stack install \
 )
 
 # build ocaml environment (drafts)
-brew install ocaml opam
-opam init
-opam install merlin
-
-# build rust environment (TODO)
-brew install rust
+# brew install ocaml opam
+# opam init
+# opam install merlin
 
 # link .vimrc and .gvimrc
 ln -s .vim/_vimrc ~/.vimrc

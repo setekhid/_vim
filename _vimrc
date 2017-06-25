@@ -49,9 +49,6 @@ let g:tagbar_type_make = {
 			\ ]
 		\}
 
-"set javascript checker
-let g:syntastic_javascript_checkers = ['standard']
-
 "config merlin for ocaml
 if executable("opam")
 	let g:opamshare = substitute(system('opam config var share'),'\n$','','''')
@@ -64,6 +61,9 @@ let g:go_fmt_autosave = 0
 
 "config necoghc
 let g:necoghc_enable_detailed_browse = 1
+
+"set javascript checker
+let g:syntastic_javascript_checkers = ['standard']
 
 "config pymode
 let g:pymode_python = 'python3'

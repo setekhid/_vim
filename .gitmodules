@@ -1,15 +1,12 @@
 [submodule "bundle/syntastic"]
 	path = bundle/syntastic
-	url = git://github.com/scrooloose/syntastic.git
+	url = git://github.com/vim-syntastic/syntastic.git
 [submodule "bundle/vim-airline"]
 	path = bundle/vim-airline
 	url = git://github.com/vim-airline/vim-airline.git
 [submodule "bundle/tagbar"]
 	path = bundle/tagbar
 	url = git://github.com/majutsushi/tagbar.git
-[submodule "bundle/rust.vim"]
-	path = bundle/rust.vim
-	url = git://github.com/rust-lang/rust.vim.git
 [submodule "bundle/vim-go"]
 	path = bundle/vim-go
 	url = git://github.com/fatih/vim-go.git
@@ -19,6 +16,3 @@
 [submodule "bundle/neco-ghc"]
 	path = bundle/neco-ghc
 	url = git://github.com/eagletmt/neco-ghc.git
-[submodule "bundle/vim-apl"]
-	path = bundle/vim-apl
-	url = git://github.com/ngn/vim-apl.git
