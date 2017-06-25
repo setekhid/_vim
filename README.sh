@@ -34,6 +34,9 @@ stack install \
 	stack install \
 )
 
+# install shellcheck for syntastic
+brew install shellcheck
+
 # build ocaml environment (drafts)
 # brew install ocaml opam
 # opam init
