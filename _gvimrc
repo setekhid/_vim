@@ -3,4 +3,5 @@ source ~/.vim/_vimrc
 set columns=80
 set lines=60
 colorscheme desert
+colorscheme macvim
 set guifont=Monaco:h10
